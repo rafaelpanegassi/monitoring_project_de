@@ -1,0 +1,5 @@
+2024-08-18 00:39:15,887 - DEBUG - Aviso de Debug
+2024-08-18 00:39:15,888 - INFO - Aviso de Informacao
+2024-08-18 00:39:15,888 - WARNING - Aviso de Warning
+2024-08-18 00:39:15,888 - ERROR - Aviso de Error
+2024-08-18 00:39:15,888 - CRITICAL - Aviso de Critical
