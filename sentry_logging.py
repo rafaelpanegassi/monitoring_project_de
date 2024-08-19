@@ -10,6 +10,6 @@ sentry_logging = LoggingIntegration(
     event_level=logging.ERROR
 )
 sentry_sdk.init(
-    dsn=os.getenv('DNS_SENTRY'),
+    dsn=os.getenv('SENTRY_DNS'),
     integrations=[sentry_logging]
 )

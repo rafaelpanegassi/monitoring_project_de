@@ -8,7 +8,7 @@ load_dotenv()
 
 
 init(
-   dsn=os.getenv('DNS_SENTRY'),
+   dsn=os.getenv('SENTRY_DNS'),
     integrations=[LoggingIntegration(level=None, event_level=None)]
 )  # Inicia o sentry
 
