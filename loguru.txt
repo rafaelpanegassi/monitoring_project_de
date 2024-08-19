@@ -1,2 +1,2 @@
-loguru_example.py 2024-08-18T00:48:55.318876-0300 WARNING 15
-loguru_example.py 2024-08-18T00:48:55.318876-0300 ERROR 16
+2024-08-19T10:43:14.599026-0300 INFO Info loguru_example.py
+2024-08-19T10:43:14.599026-0300 WARNING Warning loguru_example.py

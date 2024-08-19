@@ -4,7 +4,7 @@ from loguru import logger
 logger.remove()
 
 logger.add(
-    sink=stderr,
+    sink='loguru.txt',
     format='{time} <r>{level}</r> <g>{message}</g> {file}',
     filter=lambda rec: 'senha' not in rec['message'].lower(),
     level='INFO',
