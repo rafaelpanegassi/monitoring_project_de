@@ -5,11 +5,13 @@ import logging
 from sentry_sdk.integrations.logging import LoggingIntegration
 load_dotenv()
 
+DSN = os.getenv("SENTRY_DNS")
+
 sentry_logging = LoggingIntegration(
     level=logging.INFO,
     event_level=logging.ERROR
 )
 sentry_sdk.init(
-    dsn=os.getenv('SENTRY_DNS'),
+    dsn=DSN,
     integrations=[sentry_logging]
 )

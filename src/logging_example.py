@@ -6,7 +6,7 @@ basicConfig(
     level=DEBUG,
     encoding='utf-8',
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[FileHandler('logging.txt', 'a'), StreamHandler()]
+    handlers=[FileHandler('logs/logging_standard.log', 'a'), StreamHandler()]
 )
 
 logging.debug('Aviso de Debug')

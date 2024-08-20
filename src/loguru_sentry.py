@@ -6,9 +6,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+DSN = os.getenv("SENTRY_DNS")
 
 init(
-   dsn=os.getenv('SENTRY_DNS'),
+   dsn=DSN,
     integrations=[LoggingIntegration(level=None, event_level=None)]
 )  # Inicia o sentry
 
